@@ -32,7 +32,7 @@ jobs:
         run: chmod +x mvnw
 
       - name: Run tests
-        run: ./mvnw --batch-mode test -Ddemo.intentional.failure=true && exit 1
+        run: ./mvnw --batch-mode test
 
       - name: Build application
         run: ./mvnw --batch-mode clean package
