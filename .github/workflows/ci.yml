@@ -34,8 +34,5 @@ jobs:
       - name: Run tests
         run: ./mvnw --batch-mode test -Ddemo.intentional.failure=true && exit 1
 
-      - name: Intentional workshop failure
-	run: exit 1
-
       - name: Build application
         run: ./mvnw --batch-mode clean package
