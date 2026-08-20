@@ -1,4 +1,4 @@
-name: JakOne CI/CD
+name: JakOne CI/CD Test
 
 on:
   push:
