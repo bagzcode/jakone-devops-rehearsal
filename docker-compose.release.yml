@@ -37,9 +37,7 @@ services:
 
   # 3. Spring Boot Middleware Backend
   backend:
-    build:
-      context: ./jakone-be
-      dockerfile: Dockerfile
+    image: bagzmate/jakone-be:latest
     container_name: springboot-backend
     ports:
       - "8080:8080"
