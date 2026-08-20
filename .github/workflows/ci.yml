@@ -55,5 +55,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/jakone-be:${{ github.sha }}
-	    ${{ secrets.DOCKERHUB_USERNAME }}/jakone-be:test
             ${{ secrets.DOCKERHUB_USERNAME }}/jakone-be:latest
